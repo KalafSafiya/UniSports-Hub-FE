@@ -1,4 +1,6 @@
- HEAD
+# UniSports-Hub
+A Web-Based University Sports Management System
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,6 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# UniSports-Hub
-A Web-Based University Sports Management System
-d50ae9a3fa17de56b2233bbe518b790e30f72987
+
