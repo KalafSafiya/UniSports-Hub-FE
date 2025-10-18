@@ -1,11 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage';
+import TeamApprovalPage from './pages/TeamApprovalPage/TeamApprovalPage';
+import PendingTeamApprovals from './pages/PendingTeamApprovals/PendingTeamApprovals';
 
 function App() {
   return (
-    <div className="text-center mt-10">
-      <h1 className="text-3xl font-bold text-blue-500">Tailwind is working!</h1>
-    </div>
+    <Router>
+      <Routes>
+        {/* Default route - Home Page */}
+        <Route path="/" element={<HomePage />} />
+
+        {/* Pending Team Approvals - Admin view */}
+        <Route path="/pending-approvals" element={<PendingTeamApprovals />} />
+
+        {/* Team Approval Requests - User view */}
+        <Route path="/team-requests" element={<TeamApprovalPage />} />
+
+        {/* Add more routes as needed */}
+        {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+        {/* <Route path="/schedules" element={<Schedules />} /> */}
+        {/* <Route path="/grounds" element={<Grounds />} /> */}
+        {/* <Route path="/users" element={<Users />} /> */}
+      </Routes>
+    </Router>
   );
 }
 
