@@ -38,5 +38,5 @@ It provides separate interfaces for admins, coaches, and students to manage regi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/UniSports-Hub.git
+   git clone https://github.com/KalafSafiya/UniSports-Hub.git
 
