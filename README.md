@@ -1,4 +1,4 @@
-# 🏅 UniSports Hub
+# 🏅 UniSports Hub - Front End
 
 **UniSports Hub** is a university sports management platform designed to streamline the coordination of teams, schedules, and events.  
 It provides separate interfaces for admins, coaches, and students to manage registrations, team approvals, and event updates efficiently.
