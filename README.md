@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🏅 UniSports Hub - Frontend (Pre-Backend Integration)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**UniSports Hub** is a university sports management platform built to simplify how administrators, coaches, and students manage teams, schedules, and events.  
+This repository contains the **React.js frontend**, completed before backend and database integration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📘 Project Overview
 
-### `npm start`
+The **UniSports Hub Frontend** provides an interactive and role-based user interface for:
+- 🧑‍💼 **Admins:** Manage users, teams, and event approvals.  
+- 🧑‍🏫 **Coaches:** Manage team data, view schedules, and track performance.  
+- 🧑‍🎓 **Students/Guests:** Register for teams, view announcements, and check upcoming matches.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is the **pre-backend integration version**, serving as the base UI for upcoming API and database connections.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 👥 Contributors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Name | ID | Role |
+|------|----|------|
+| **Safiya Kalaf** | 2021/ICT/71 | Frontend Developer |
 
-### `npm run build`
+> Developed as a part for the completion of course module group project IT 3162.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🧩 Component-based architecture for modularity  
+- 🗓️ Event and team scheduling interfaces  
+- 🏟️ Facility and ground management UI  
+- 👥 Role-based navigation (Admin, Coach, Guest)  
+- 💻 Fully responsive design using **Tailwind CSS**  
+- ⚡ Routing handled with **React Router v6**  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Category | Technology |
+|-----------|-------------|
+| **Framework** | React.js |
+| **Styling** | Tailwind CSS |
+| **Routing** | React Router DOM |
+| **Icons** | Lucide React |
+| **Build Tool** | Vite / Create React App (depending on setup) |
+| **Version Control** | Git & GitHub |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌿 Branching Workflow
 
-## Learn More
+| Branch | Description |
+|---------|--------------|
+| `main` | Stable, production-ready branch |
+| `frontend-pre-backend` | Current branch — completed frontend before backend integration |
+| `dev` | Will be used for integration testing after backend completion |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Clone this repository
+```bash
+git clone https://github.com/KalafSafiya/UniSports-Hub-FE.git
+```
+## ⚙️2. Navigate into the project directory
+```
+cd UniSports-Hub-FE
+```
 
-### Code Splitting
+## ⚙️3. Switch to the correct branch
+```
+cd UniSports-Hub-FE
+```
+## ⚙️4. Install dependencies
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚙️5. Start the development server
+```
+npm start
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ⚙️6. Open in browser
+```
+Go to 👉 http://localhost:3000
+```
