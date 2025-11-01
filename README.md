@@ -62,7 +62,7 @@ This is the **pre-backend integration version**, serving as the base UI for upco
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/KalafSafiya/UniSports-Hub-FE.git
+git clone --branch frontend-pre-backend https://github.com/KalafSafiya/UniSports-Hub-FE.git 
 ```
 ## ⚙️2. Navigate into the project directory
 ```
