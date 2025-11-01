@@ -9,8 +9,8 @@ This repository contains the **React.js frontend**, completed before backend and
 
 The **UniSports Hub Frontend** provides an interactive and role-based user interface for:
 - 🧑‍💼 **Admins:** Manage users, teams, and event approvals.  
-- 🧑‍🏫 **Coaches:** Manage team data, view schedules, and track performance.  
-- 🧑‍🎓 **Students/Guests:** Register for teams, view announcements, and check upcoming matches.
+- 🧑‍🏫 **Coaches:** Manage team data, schedules, and track performance.  
+- 🧑‍🎓 **Students/Guests:**  View announcements, and check upcoming matches.
 
 This is the **pre-backend integration version**, serving as the base UI for upcoming API and database connections.
 
@@ -45,7 +45,7 @@ This is the **pre-backend integration version**, serving as the base UI for upco
 | **Styling** | Tailwind CSS |
 | **Routing** | React Router DOM |
 | **Icons** | Lucide React |
-| **Build Tool** | Vite / Create React App (depending on setup) |
+| **Build Tool** | Create React App |
 | **Version Control** | Git & GitHub |
 
 ---
